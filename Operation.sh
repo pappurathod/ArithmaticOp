@@ -8,6 +8,16 @@ function substraction () {
         echo "the substraction is $cal"
 }
 
+function multiplication () {
+        cal=$(($a*$b))
+        echo "the multiplication is $cal"
+}
+
+function division () {
+        cal=$(($a/$b))
+        echo "the divition is $cal"
+}
+
 
 echo "enter first number"
 read a
@@ -16,3 +26,5 @@ read b
 
 addition
 substraction
+multiplication
+division
