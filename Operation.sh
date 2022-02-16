@@ -23,8 +23,26 @@ echo "enter first number"
 read a
 echo "enter second number"
 read b
+echo "ente your choice"
+read ch
 
-addition
-substraction
-multiplication
-division
+case $ch in
+
+	1)
+		addition
+		;;
+	2)
+
+		substraction
+		;;
+	3)
+
+		multiplication
+		;;
+	4)
+
+		division
+		;;
+	*)
+		echo "enter valid choice"
+esac
